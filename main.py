@@ -10,7 +10,7 @@ res = urlopen("https://www.osym.gov.tr/TR,23771/2022.html",
 soup = BeautifulSoup(res, "html.parser")
 data = soup.findAll("table", "table")
 
-token = "MTAxNjQwMDIzODk1ODg3ODcyMA.GCButd.sY65vv-RNUeTRpJH3YpW37nyUGUzMz3laXiBhU"
+token = "TOKEN GİRİN"
 client = discord.Client(intents=discord.Intents.default())
 
 
